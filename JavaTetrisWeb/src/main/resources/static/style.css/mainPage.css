@@ -1,7 +1,7 @@
 
 .description{	
 	border: 10px solid transparent;
-	border-image: url(img/border.png) 30 round;
+	border-image: url(/img/border.png) 30 round;
 	width: 75%;
 	margin-left: 12.5%;
 }
