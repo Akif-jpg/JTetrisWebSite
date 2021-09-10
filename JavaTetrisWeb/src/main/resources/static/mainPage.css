@@ -1,25 +1,15 @@
-.description{
-	text-align: center;
+
+.description{	
 	border: 10px solid transparent;
 	border-image: url(img/border.png) 30 round;
-}
-#Objectives{	
-	padding-left: 75px;
 	width: 75%;
+	margin-left: 12.5%;
 }
-.paragraf{
-	padding-left: 85px;
-}
-
 .tetrisImage{
 	margin: 20px;
   	padding: 15px;
 }
 
-#AboutGame{
-	padding-left: 75px;
-	width: 75%;
-}
 
 div{
 	padding: 25px;
