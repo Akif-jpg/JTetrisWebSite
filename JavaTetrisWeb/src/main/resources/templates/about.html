@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title th:utext="#{label.aboutPage.title}"></title>
+        <link rel="stylesheet" href="/style.css/navigationBar.css">
+    </head>
+    <body>
+        <nav class="topnav">
+            <a th:utext="#{label.mainPage.title}" class="topHref" href="/"></a>
+            <a th:utext="#{label.newsPage.title}" class="topHref" href="/news"></a>
+            <a th:utext="#{label.forumPage.title}" class="topHref" href="/forum"></a>
+            <a th:utext="#{label.aboutPage.title}" class="active topHref" href="/about"></a>
+          </nav>
+          <script src="/java.js/navigationBar.js"></script> 
+    </body>
+</html>
