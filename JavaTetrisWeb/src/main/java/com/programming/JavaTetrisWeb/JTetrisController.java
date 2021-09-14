@@ -15,12 +15,7 @@ public class JTetrisController {
 	@GetMapping(value= {"/news"})
 	public String getForumPage(Model model) {
 		return "news";
-	}
-	
-	@GetMapping(value={"/forum"})
-	public String getInnovationsPage() {
-		return "forum";
-	}
+	}	
 	
 	@GetMapping(value={"/about"})
 	public String getAboutPage() {
