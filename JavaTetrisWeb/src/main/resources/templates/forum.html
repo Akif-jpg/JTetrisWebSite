@@ -25,35 +25,15 @@
             <a th:utext="#{label.aboutPage.title}" class="topHref" href="/about"></a>
           </nav>
           <script src="/java.js/navigationBar.js"></script> 
-		  	<div class="container">
-		    <div class="panel-group">
-		    <div class="panel panel-default">
-
-			<table>
+          
+          <h3 th:utext="#{label.forumPage.header}" class="forumHeader"></h3>
+			<table th:each="forumContent:${forums}">
 			  <tr>
-			    <th><div class="panel-heading">Panel Header</div></th>
+			    <th><div class="panel-heading" th:text="${forumContent.forumTitle}">Panel Header</div></th>
 			  </tr>
 			  <tr>
-			    <td> <div class="panel-body">Panel Content</div></td>
+			    <td> <div class="panel-body" th:text="${forumContent.forumContext}">Panel Content</div></td>
 			  </tr>
 			  <tr>
-			    <th><div class="panel-heading">Panel Header</div></th>
-			  </tr>
-			  <tr>
-			    <td> <div class="panel-body">Panel Content</div></td>
-			  </tr>
-			  <tr>
-			    <th><div class="panel-heading">Panel Header</div></th>
-			  </tr>
-			  <tr>
-			    <td> <div class="panel-body">Panel Content</div></td>
-			  </tr>
-			  <tr>
-			    <th><div class="panel-heading">Panel Header</div></th>
-			  </tr>
-			  <tr>
-			    <td> <div class="panel-body">Panel Content</div></td>
-			  </tr>
-			
 			</table>
 </html>
