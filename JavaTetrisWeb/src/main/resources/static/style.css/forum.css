@@ -1,18 +1,28 @@
 table {
 		  font-family: arial, sans-serif;
 		  border-collapse: collapse;
-		  width: 100%;
-		  padding-top: 20px;
+		  width: 70%;
+     	  margin-left: 15%;
+     	  margin-top: 30px;
 }
 td, th {
 		  border: 1px solid #dddddd;
 		  text-align: left;
-		  padding: 8px;
+}
+
+td{
+	border-bottom: 20px solid #fff;
+}
+
+tr:nth-child(even) {
+		 background-color: #dddddd;
+		 margin-bottom: 15px;
+		
 }
 
 
-tr:nth-child(even) {
-		  background-color: #dddddd;
-		 margin-bottom: 15px;
-
+.forumHeader{
+	font-family: 'Brush Script MT', cursive;
+	font-size: 25px;
+	text-align: center;
 }
